@@ -1,0 +1,337 @@
+<style>
+:root {
+   --orange: #ef8122;
+   --red: #9b1c20;
+}
+
+body{
+  background-color:black;
+  background: #000 url('https://cdn5.f-cdn.com/contestentries/1015383/24556344/590d876ec9347_thumb900.jpg')
+}
+
+*,
+*:after,
+*:before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   padding-top: 72px;
+   font-family: sans-serif;
+   color: #555;
+   height: 250vh;
+}
+
+.hero {
+   // width: 100vw;
+   height: 256px;
+   background: #000 url('https://dcassetcdn.com/design_img/1946641/541456/541456_10441364_1946641_8b4d09ed_image.jpg') center center no-repeat;
+   background-size: contain;
+}
+
+#header {
+   position: fixed;
+   top: 0;
+   left: 50vw;
+   width: 100vw;
+   max-width: 1200px;
+   transform: translateX(-50%);
+   height: 72px;
+   background-color: purple;
+   padding: 0 30px;
+   border-radius: 0 0 5px 5px;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   &-img {
+      max-width: 100%;
+      height: 48px;
+   }
+   
+   #nav-bar {
+      
+      .nav-link {
+         text-transform: uppercase;
+         text-decoration: none;
+         color: inherit;
+         transition: color .2s ease-out;
+         
+         &:hover {
+            color: var(--orange);
+         }
+         
+         &:not(:last-child) {
+            margin-right: 20px;
+         }
+      }
+   }
+}
+
+
+#material,
+#sizes {
+   padding: 72px 30px 0;
+   margin: 0 auto;
+   max-width: 1200px;
+   text-align: center;
+}
+
+#material,
+#sizes {
+   h2 {
+      color: var(--orange);
+      font-size: 28px;
+      margin-bottom: 10px;
+   }
+  
+  .cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      
+      margin: 30px 0;
+      
+      .card {
+         
+         h4, p {
+            margin: 10px 20px;
+         }
+         
+         img {
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+         }
+
+         &:not(:last-child) {
+            margin-right: 30px;
+         }
+      }
+   }
+   
+}
+
+
+#styles {
+   padding: 86px 30px;
+   text-align: center;
+   background: linear-gradient(to right bottom, var(--orange), var(--red));
+   
+   h2 {
+      color: #fff;
+      font-size: 28px;
+      margin-bottom: 30px;
+   }
+   
+   #video {
+      display: block;
+      width: 70vw;
+      max-width: 840px;
+      height: 39.375vw;
+      max-height: 472px;
+      margin: 0 auto;
+   }
+}
+
+
+#form {
+   background: linear-gradient(to right, var(--orange), var(--red));
+   padding: 40px;
+   text-align: center;
+   
+   input {
+      padding: 10px 20px;
+      border: none;
+      font-size: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0, .2);
+      
+      &#email {
+         width: 400px;
+         margin-right: 10px;
+      }
+      
+      &#submit {
+         text-transform: uppercase;
+         background-color: var(--orange);
+         color: #fff;
+         cursor: pointer;
+         transition: background-color .2s ease-out;
+         
+         &:hover {
+            background-color: var(--red);
+         }
+      }
+   }
+}
+
+
+#footer {
+   background-color: #555;
+   color: #fff;
+   text-align: center;
+   padding: 20px 40px;
+   font-size: 12px;
+}
+
+
+@media screen and (max-width: 360px) {
+   #header {
+      // background-color: blue;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 84px;
+      border-radius: 0;
+      
+      #nav-bar {
+         margin: 10px 0;
+         display: flex;
+         font-size: 12px;
+      }
+   }
+   
+   #material,
+   #sizes {
+      padding: 90px 20px 0;
+      
+      h2 {
+         font-size: 20px;
+      }
+      
+      h4 {
+         font-size: 14px;
+      }
+      
+      .cards {
+         flex-wrap: wrap;
+         text-align: center;
+         
+         .card {
+            // margin-right: 0 auto !important;
+            width: calc(100vw - 40px);
+            
+            img {
+               height: 150px;
+               margin: 20px auto;
+               width: auto;
+            }
+            
+            &:not(:last-child) {
+               margin-right: 0;
+            }
+         }
+      }
+   }
+   
+  
+  #form {
+      input {
+         width: 80%;
+         
+         &#email {
+            width: 100%;
+            margin-bottom: 20px;
+         }
+      }
+   }
+}</style>
+
+
+<div class=" container">
+  <header id="header">
+    <img src="https://cdn5.f-cdn.com/contestentries/1130079/16522582/59bc3aef2b2d3_thumbCard.jpg" alt "logo" id="header-img">
+    <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Material</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Styles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Sizes</a>
+  </li>
+  </ul>
+   </header>
+
+  <div class="hero"></div>
+
+  <section id="material">
+    <h2>Best custom wigs in the business</h2>
+    <h4>Get one made for you today.</h4>
+
+    <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://www.evawigs.com/webapp/assets/cache/c/5/c/ffe7aa5effb778aceb9d6955cea0b298.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Afro Kinky Curly</h5>
+      <p class="card-text">Hair Material: Raw Human Hair Collect</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://ae01.alicdn.com/kf/HTB1Qc39gZnI8KJjSsziq6z8QpXay/Silky-Strands-Kinky-Curly-Afro-Wigs-Synthetic-Kanekalon-Wig-For-Women-Colors-Black-Brown-Short-Womens.jpg_640x640.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Kinky Curly Afro</h5>
+      <p class="card-text">Elastic lace</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://ae01.alicdn.com/kf/HTB1QXjDvv5TBuNjSspmq6yDRVXa2/Elva-Hair-Body-Wave-Lace-Front-Human-Hair-Wigs-For-Women-Pre-Plucked-Hairline-10-24.jpg_640x640.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Body Wave Lace Front</h5>
+      <p class="card-text">Human Hair</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+  
+  <section id="styles">
+    <h2>We have a wide varitey and selection of styles for our customers</h2>
+    <!--   width="560"  height="315"  -->
+    <iframe id="video"  width="100%" height="100%" src="https://www.youtube.com/watch?v=RHstA59euIY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </section>
+  
+  <section id="sizes">
+    <h2>We have all sizes to meet your needs</h2>
+    <h4>Learn about our custom fitting program</h4>
+    
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61ZWRdOTrML._SY355_.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Average</p>
+  </div>
+</div>
+    
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://ii.especiallyyours.com/fcgi-bin/iipsrv.fcgi?FIF=/images/especiallyyours/source/Z1097_1.tif&qlt=75&wid=440&cvt=jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+    
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.rpghair.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/p/rpghair-5.31-final.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+  </section>
+  
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <input name="email" type="email" placeholder="Your email address" id="email" required>
+      <input type="submit" id="submit" value="Subscribe">
+   </form>
+
+   <footer id="footer">
+      <p>All product names, logos, and brands are property of their respective owners.</p>
+   </footer>
+</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
