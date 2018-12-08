@@ -1,0 +1,287 @@
+ <style>
+ html,body{
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans',Arial,sans-sarif;
+  line-height: 1.5;
+}
+
+#navbar{
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4)
+    
+  }
+
+header{
+  color:black;
+  font-size: 30px;
+  margin:10px;
+  text-align:center;
+  font-size:1.8em;
+  font-weight:thin;
+}
+#main-doc header{
+  text-align:left;
+  margin:0px;
+}
+#navbar ul{
+  height:88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+#navbar li{
+  color: #4d4e53;
+  border:1px solid;
+  border-bottom-width:0px;
+  padding:8px;
+  padding-left:45px;
+  list-style: none;
+  position:relative;
+  left:-50px;
+  width:100%;
+}
+#navbar a{
+  color: #4d4e53;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left:310px;
+  padding:20px;
+  margin-bottom:110px;
+}
+section article{
+  color: #4d4e53;
+  margin:15px;
+  font-size:0.96em;
+}
+
+section li{
+  margin:15px 0px 0px 20px;
+}
+
+@media only screen and (max-width: 815px){
+  /* For mobile phones: */
+  #navbar ul{
+    border:1px solid;
+    height:207px;
+  }
+  #navbar{
+    background-color:white;
+    position:absolute;
+    top:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    max-height:275px;
+    border:none;
+    z-index:1;
+    border-bottom:2px solid;
+  }
+  #main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:270px;
+  }
+  #main-doc section{
+    /* padding-top: 240px; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  #main-doc{
+    margin-left:-10px;
+    
+  }
+}
+ </style>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <nav id="navbar">
+  <header>Comic Books</header>
+  <ul>
+    <a class="nav-link" href="#Introduction" rel="internal"><li>Introduction</li></a>
+    <a class="nav-link" href="#What_is_the_purpose_of_comic_books" rel="internal"><li>What is the purpose of comic books</li></a>
+    <a class="nav-link" href="#History" rel="internal"><li>History</li></a>
+    <a class="nav-link" href="#Structure" rel="internal"><li>Structure</li></a>
+    <a class="nav-link" href="#American_comic_books" rel="internal"><li>American comic books</li></a>
+    <a class="nav-link" href="#Asian_comics" rel="internal"><li>Asian comics</li></a>
+    <a class="nav-link" href="#European_comics" rel="internal"><li>European comics</li></a>
+    <a class="nav-link" href="#Distribution" rel="internal"><li>Distribution</li></a>
+    <a class="nav-link" href="Comic_collections_in_libraries" rel="internal"><li>Comic collections in libraries</li></a>
+    <a class="nav-link" href="#Guinness_world_record" rel="internal"><li>Guinness world record</li></a>
+    <a class="nav-link" href="#References" rel="internal"><li>References</li></a>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes. Panels are often accompanied by brief descriptive prose and written narrative, usually dialog contained in word balloons emblematic of the comics art form.</p>
+      <p>Although comics has some origins in 18th century Japan, comic books were first popularized in the United States and the United Kingdom during the 1930s. The first modern comic book, Famous Funnies, was released in the U.S. in 1933 and was a reprinting of earlier newspaper humor comic strips, which had established many of the story-telling devices used in comics.</p>
+      <p>The term comic book derives from American comic books once being a compilation of comic strips of a humorous tone; however, this practice was replaced by featuring stories of all genres, usually not humorous in tone.</p>
+      <li>The largest comic book market is Japan. By 1995, the manga market in Japan was valued at 586.4 billion ($6–7 billion), with annual sales of 1.9 billion manga books/magazines in Japan (equivalent to 15 issues per person).</li>
+      <li>The comic book market in the United States and Canada was valued at $1.09 billion in 2016.</li>
+      <li>As of 2017, the largest comic book publisher in the United States is manga distributor Viz Media, followed by DC Comics and Marvel Comics.</li>
+      <li>Another major comic book market is France, where Franco-Belgian comics and Japanese manga each represent 40% of the market, followed by American comics at 10% market share.</li>
+    </article>
+  </section>
+  <section class="main-section" id="What_is_the_purpose_of_comic_books">
+    <header>What is the purpose of comic books</header>
+    <article>
+      <p>The pure entertainment value of storytelling through sequential art can be worthy on its own merits. However, the comics can inform, persuade, and encourage new behaviors in readers. This is the purpose of comic books authored by U.S. government agencies.</p>
+    </article>
+  </section>
+  <section class="main-section" id="History">
+    <header>History</header>
+    <article>
+      <p>The precursor to comic books, cartoons have been popular in England and America since the early 1800s, originating as satirical and political cartoons printed in newspapers and periodicals.</p>
+      <p>Through a natural evolution, cartoons developed into comic books, first through publications containing compilations of cartoon re-prints, then as books with original cartoon artwork, before reaching critical mass through the creation of superheroes in 1938.</p>
+      
+      <p>Platinum Age</p>
+      
+      <p>1897-1938</p>
+      <li>ublished in 1897, The Yellow Kid in McFadden’s Flats is considered to be the first comic book, insomuch that it bore the phrase “comic book” on its back cover. </li>
+      <li>The first monthly comic book, aptly titled Comics Monthly, began publication in 1922, though it also featured reprints of daily newspaper comic strips.</li>
+      <li>In 1933, Funnies On Parade became the first color comic book printed in the now standard size of 6 5/8 x 10 1/4 inches.</li>
+      <li>In February 1935, DC Comics’ precursor, National Allied Publications, published New Fun #1—the company’s first comic book and the first ever comic book consisting of completely original material. Jerry Siegel and Joe Shuster, soon to be known for creating Superman, began working on New Fun in October 1935. In the March 1937 edition of Detective Comics #1, Siegel and Shuster introduced their character Slam Bradley, the forebear of Superman.</li>
+      
+      <p>Golden Age</p>
+      <p>1938-1956</p>
+      <li>The Golden Age of Comic Books began in June 1938 with the debut of Superman in Action Comics #1. Batman premiered less than a year later in Detective Comics #27.</li>
+      <li>In October 1939, Marvel Comics’ predecessor, Timely Publications, released Marvel Comics #1 which included the Human Torch, Angel, and Prince Namor the Sub-Mariner. Along with Fawcett Comics’ superhero Captain Marvel, DC Comics’ Flash and Green Lantern debuted in 1940. Marvel’s Captain America and DC’s Wonder Woman were first published the following year.</li>
+      <li>During the return to normalcy in post-war America, superhero comic books sales plummeted and many titles ceased publication. Through the mid-1950s, the void was filled by comic books containing more serious themes such as crime, romance, Western, and horror.</li>
+      <p>Silver Age</p>
+      <p>1956-1970</p>
+      <li>In 1954, psychiatrist Fredric Wertham wrote in his bestselling book Seduction of the Innocent that comic books of all types were corrupting the youth of America.</li>
+      <li>Sensing public backlash, that same year comic book publishers created the Comics Code Authority in order to self-regulate their industry, much as the Motion Picture Association of America was formed to prevent government involvement in film production.</li>
+      <li>Heralding the outrageousness of the Batman television series in the mid-1960s, Batman comic books introduced ridiculous characters such as Batbaby, Bat-Ape, Bat-Mite, and Ace the Bat Hound. Also during this time, taking the place of serious villains to battle Superman, numerous forms of kryptonite were brought forth—gold, blue, Jewel, red-green, Magno, red-gold kryptonite and Kryptonite.</li>
+      <p>Bronze Age</p>
+      <p>1970-1985</p>
+      <li>The Bronze Age signaled a more realistic style within comic books as a younger generation of artists, including Neal Adams, John Byrne, George Perez, Frank Miller, and others, replaced aging artists who had helped to create the superhero comic books of the 1930s and 1940s.</li>
+      <li>The beginning of the Bronze Age of comic books is marked by the shocking murder of Peter Parker’s girlfriend Gwen Stacy at the hands of the Green Goblin in Amazing Spider-Man #121-122 (June-July 1973).</li>
+      <li>In 1971, the Comics Code Authority relaxed some standards, going so far as to state, “Vampires, ghouls, and werewolves shall be permitted to be used when handled in the classic tradition …”</li>
+      <li>In addition, socially conscious stories became more numerous in the 1970s, most famously during the collaborative adventures of Green Lantern and Green Arrow as they fought against racism, pollution, and social injustice. Green Arrow also confronted his sidekick Speedy’s heroin addiction while Iron Man came to terms with his alcoholism.</li>
+      <li>Understanding that a vast majority of their superheroes were Caucasian men, DC and Marvel introduced a slew of minority superheroes such as Storm, Black Lightning, Blade, and the Green Lantern John Stewart.</li>
+      <p>Dark Age</P>
+    <p>1985-1996</p>
+    <li>Kicking off the Dark Age of comic books was the publication of the monumental series Crisis on Infinite Earths. To commemorate DC Comics’ 50th anniversary, DC published Crisis on Infinite Earths as a 12-issue comic book event. In this series, DC planned to clear up decades of plot inconsistencies, as well as bring together conflicting characters from the Golden Age and the Silver Age.</li>
+    <li>From the mid-1980s through the early 1990s, anti-heroes were popular. Dark, pessimistic stories reigned, as in Alan Moore’s Watchmen, where a world looks down on once mighty superheroes or in Frank Miller’s Batman: The Dark Knight Returns where a 55-year-old Batman has retired from crime-fighting, leaving criminals to terrorize Gotham City.</li>
+    <li>Readers witnessed Superman dying, Batman becoming critically injured, and Green Lantern Hal Jordan slaughtering his fellow Green Lanterns.</li>
+    <li>The Dark Age also saw the publication of the Pulitzer Prize-winning Maus, Art Spiegelman’s moving, autobiographical tale of a Jewish family in Poland living through the reign of Nazi Germany.</li>
+    <li>This period ends with a massive sales slump and industry downsizing caused by a speculator’s market where excess merchandise, too many collector’s editions, and too many series were produced in an inflated market. The sales slump contributed to the bankruptcy of Marvel Comics in 1996.</li>
+    <p>Modern Age</p>
+    <p>1996-Present</p>
+    <li>The publication of Alex Ross’s Kingdom Come in 1996, which harkened back to the optimism and strength of Silver Age superheroes, marks the beginning of the Modern Age. </li>
+    <li>During this period, comic book publishers attempted to rectify their mistakes by creating a leaner business plan and putting more effort into a fewer number of projects. </li>
+    <li>Following the dismal failure of the motion picture Batman and Robin (1997), superhero films were put on ice for retooling. In 2000, the modest success of The X-Men helped put the popularity of the superhero movie back on track.</li>
+    <li>Over eighty years since the debut of Superman, the comic book industry has remained relevant through the early adoption of digital comics, successful saturation into the film and television markets, and maintaining a strong connection to their fan-base.</li>
+    </article>
+  </sextion>
+<section class="main-section" id="Structure">
+  <header>Structure</header>
+  <article>
+    <p>Comic books are reliant on their organization and appearance. Authors largely focus on the frame of the page, size, orientation, and panel positions. These characteristic aspects of comic books are necessary in conveying the content and messages of the author. The key elements of comic books include panels, balloons (speech bubbles), text (lines), and characters. Balloons are usually convex spatial containers of information that are related to a character using a tail element. The tail has an origin, path, tip, and pointed direction. Key tasks in the creation of comic books are writing, drawing, and coloring.<p>
+  </article>
+</section>
+<section class="main-section" id="American_comic_books">
+  <header>American comic books</header>
+  <p>Comics as a print medium have existed in America since the printing of The Adventures of Mr. Obadiah Oldbuck in 1842 in hardcover, making it the first known American prototype comic book. Proto-comics periodicals began appearing early in the 20th century, with historians generally citing Dell Publishing's 36-page Famous Funnies: A Carnival of Comics as the first true American comic book; Goulart, for example, calls it "the cornerstone for one of the most lucrative branches of magazine publishing".</p>
+  <p>Underground comic books</p>
+  <li>In the late 1960s and early 1970s, a surge of creativity emerged in what became known as underground comix. Published and distributed independently of the established comics industry, most of such comics reflected the youth counterculture and drug culture of the time. Many had an uninhibited, often irreverent style; their frank depictions of nudity, sex, profanity, and politics had no parallel outside their precursors, the pornographic and even more obscure "Tijuana bibles". Underground comics were almost never sold at newsstands, but rather in such youth-oriented outlets as head shops and record stores, as well as by mail order.</li>
+  <li>Frank Stack's The Adventures of Jesus, published under the name Foolbert Sturgeon, has been credited as the first underground comic; while R. Crumb and the crew of cartoonists who worked on Zap Comix popularized the form.</li>
+  
+  <p>Alternative comics</p>
+  <li>The rise of comic book specialty stores in the late 1970s created/paralleled a dedicated market for "independent" or "alternative comics" in the U.S. The first such comics included the anthology series Star Reach, published by comic book writer Mike Friedrich from 1974 to 1979, and Harvey Pekar's American Splendor, which continued sporadic publication into the 21st century and which Shari Springer Berman and Robert Pulcini adapted into a 2003 film. Some independent comics continued in the tradition of underground comics. While their content generally remained less explicit, others resembled the output of mainstream publishers in format and genre, but were published by smaller artist-owned companies or by single artists. A few (notably RAW) represented experimental attempts to bring comics closer to the status of fine art.</li>
+  <li>During the 1970s the "small press" culture grew and diversified. By the 1980s, several independent publishers - such as Pacific, Eclipse, First, Comico, and Fantagraphics - had started releasing a wide range of styles and formats—from color-superhero, detective, and science-fiction comic books to black-and-white magazine-format stories of Latin American magical realism.</li>
+  <li>A number of small publishers in the 1990s changed the format and distribution of their comics to more closely resemble non-comics publishing. The "minicomics" form, an extremely informal version of self-publishing, arose in the 1980s and became increasingly popular among artists in the 1990s, despite reaching an even more limited audience than the small press.</li>
+  <li>Small publishers regularly releasing titles include Avatar Comics, Hyperwerks, Raytoons, and Terminal Press, buoyed by such advances in printing technology as digital print-on-demand.</li>
+  <p>Graphic novels</p>
+  <p>In 1964, Richard Kyle coined the term "graphic novel". Precursors of the form existed by the 1920s, which saw a revival of the medieval woodcut tradition by Belgian Frans Masereel, American Lynd Ward and others, including Stan Lee. In 1950, St. John Publications produced the digest-sized, adult-oriented "picture novel" It Rhymes with Lust, a 128-page digest by pseudonymous writer "Drake Waller" (Arnold Drake and Leslie Waller), penciler Matt Baker and inker Ray Osrin, touted as "an original full-length novel" on its cover. In 1971, writer-artist Gil Kane and collaborators devised the paperback "comics novel" Blackmark. Will Eisner popularized the term "graphic novel" when he used it on the cover of the paperback edition of his work A Contract with God, and Other Tenement Stories in 1978.</p>
+  </article>
+</section>
+<section class="main-section" id="Asian_comics">
+  <header>Asian comics</header>
+  <p>Japanese manga</p>
+  <p>The first comic books in Japan appeared during the 18th century in the form of woodblock-printed booklets containing short stories drawn from folk tales, legends, and historical accounts, told in a simple visual-verbal idiom. Known as "red books", "black books", and "blue books", these were written primarily for less literate readers. However, with the publication in 1775 of Koikawa Harumachi's comic book Master Flashgold's Splendiferous Dream ( Kinkin sensei eiga no yume), an evolved form of comic book originated, which required greater literacy and cultural sophistication. This was known as the kibyōshi ( lit. yellow cover). Published in thousands of copies, the kibyōshi may have been the earliest fully realized comic book for adults in world literary history. Approximately 2,000 titles remain extant.</p>
+  <p>Dōjinshi</p>
+  <p>Dōjinshi (fan magazine), fan-made Japanese comics, operate in a far larger market in Japan than the American "underground comics" market; the largest dōjinshi fair, Comiket, attracts 500,000 visitors twice a year.</p>
+  
+  <p>Korean manhwa</p>
+  <p>Korean manhwa have quickly gained popularity outside Korea in recent times as a result of the Korean Wave. The manhwa industry has suffered through two crashes and strict censorship since its early beginnings as a result of the Japanese occupation of the peninsula which stunt the growth of the industry but has now started to flourish thanks in part to the internet and new ways to read manhwa whether on computers or through smartphones. In the past manhwa would be marketed as manga outside the country in order to make sure they would sell well but now that is no longer needed since more people are now more knowledgeable about the industry and Korean culture.</p>
+  <p>Webtoons</p>
+  <p>Webtoons have become popular in South Korea as a new way to read comics. Thanks in part to different censorship rules, color and unique visual effects, and optimization for easier reading on smartphones and computers. More manhwaga have made the switch from traditional print manhwa to online webtoons thanks to better pay and more freedom than traditional print manhwa. The webtoon format has also expanded to other countries outside of Korea like China, Japan, Southeast Asia, and Western countries. Major webtoon distributors include Lezhin, Naver, and Kakao.</p>
+  
+<section class="main-section" id="European_comics">
+  <header>European comics</header>
+  
+  <p>Franco-Belgian comics</p>
+  <li>France and Belgium have a long tradition in comics and comic books, called BDs (an abbreviation of bande dessinées) in French and strips in Dutch. Belgian comic books originally written in Dutch show the influence of the Francophone "Franco-Belgian" comics, but have their own distinct style.</li>
+  <li>The name bande dessinée derives from the original description of the art form as drawn strips (the phrase literally translates as "the drawn strip"), analogous to the sequence of images in a film strip. As in its English equivalent, the word "bande" can be applied to both film and comics.</li>
+  <li>In France, authors control the publication of most comics. The author works within a self-appointed time-frame, and it is common for readers to wait six months or as long as two years between installments. Most books first appear in print as a hardcover book, typically with 48, 56, or 64 pages.</li>
+  
+  <p>British comics</p>
+  <li>Although Ally Sloper's Half Holiday (1884) was aimed at an adult market, publishers quickly targeted a younger demographic, which has led to most publications being for children and has created an association in the public's mind of comics as somewhat juvenile.</li>
+  <li>The Guardian refers to Ally Sloper as “one of the world’s first iconic cartoon characters”, and “as famous in Victorian Britain as Dennis the Menace would be a century later.”</li>
+  <li>The two most popular British comic books, The Beano and The Dandy, were first published by DC Thomson in the 1930s.</li>
+  
+  <p>Italian comics</p>
+  <li>In Italy, comics (known in Italian as fumetti) made their debut as humor strips at the end of the 19th century, and later evolved into adventure stories. After World War II, however, artists like Hugo Pratt and Guido Crepax exposed Italian comics to an international audience. Popular comic books such as Diabolik or the Bonelli line—namely Tex Willer or Dylan Dog—remain best-sellers.</li>
+  <li>Mainstream comics are usually published on a monthly basis, in a black-and-white digest size format, with approximately 100 to 132 pages. Collections of classic material for the most famous characters, usually with more than 200 pages, are also common. Author comics are published in the French BD format, with an example being Pratt's Corto Maltese.</li>
+  
+  <li>Italian cartoonists show the influence of comics from other countries, including France, Belgium, Spain, and Argentina. Italy is also famous for being one of the foremost producers of Walt Disney comic stories outside the U.S. Donald Duck's superhero alter ego, Paperinik, known in English as Superduck, was created in Italy.</li>
+  </section>
+  <section class="main-section" id="Distribution">
+    <header>Distribution</header>
+    <p>Distribution has historically been a problem for the comic book industry with many mainstream retailers declining to carry extensive stocks of the most interesting and popular comics. The smartphone and the tablet have turned out to be an ideal medium for online distribution.</p>
+  </section>
+  <section class="main-secion" id="Comic_collection_in__libraries">
+    <header>Comic collections in libraries</header>
+    <p>Many libraries have extensive collections of comics in the form of graphic novels. This is a convenient way for many in the public to become familiar with the medium.</p>
+  </section>
+  
+    <section class="main-section" id="Guinness_world_records">
+      <header>Guinness world records</header>
+      <li>The largest comic book ever published was on the 5th of August 2018 in São Paulo, São Paulo, Brazil. It is named Turma da Mônica — O Maior Gibi do Mundo! by Panini Comics Brasil and Mauricio de Sousa Editora, and it measures at 69.9 cm by 99.8 cm (2 ft 3.51 in by 3 ft 3.29 in).</li>
+      <li>The Japanese manga author Eiichiro Oda has made comic book history by attaining a Guinness World Record title for having the "Most copies published for the same comic book series by a single author". His widely popular comic titled One Piece was first serialised in Weekly Shonen Jump magazine (Shueisha) in Japan, back in December 1997. In the space of less than two decades, the series has accumulated an incredibly loyal following and has gone on to sell an incredible 320,866,000 units, with a substantial 77 volumes of the comic book released over that period.<li>
+  </section>
+  <section class="main-section" id="References">
+    <header>References</header>
+    <article>
+      <li>All the documentation in this page is taken from <a href="https://en.wikipedia.org/wiki/Comic_book#Comic_collections_in_libraries" target="_blank">MDN</a>
+    </article>
+  </section>
+  </main>
+  
+    
+  
+
+
+  
+
+
+
+
+
+
+
+
+
